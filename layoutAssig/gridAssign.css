@@ -1,0 +1,122 @@
+
+#container{
+display: grid;
+justify-content: center;
+width: 50px;
+height: 600px;
+margin-left: 50%;
+grid-template-rows: 100px 1fr 100px;
+grid-template-columns: 1fr 1fr 40px;
+gap: 10px;
+grid-template-areas: 
+"header header header"
+"nav main article"
+"footer footer footer";
+}
+main{
+    grid-area: main;
+    width: 800px;
+    display: flex;
+    border: 1px solid blue;
+}
+p{
+    font-size: 15px;
+}
+.resize{
+    font-size: 15px;
+    color:blanchedalmond;
+}
+.icon{
+    width: 70px;
+}
+.footer-para{
+    font-size: 15px;
+    color:bisque;
+}
+.register{
+    border: 1px solid blue;
+    margin-left: 20px;
+    gap: 10px;
+    display: flow-root;
+    margin-right: 10px;
+}
+header{
+    margin-left: 30px;
+grid-area: header;
+}
+
+.register{
+    margin-top: 10px;
+width: 100%;
+height: 80%;
+margin-left: 40px;
+background-color: fuchsia;
+border-radius: 30px;
+}
+nav{
+    grid-area: nav;
+    height: 600px;
+    border: 1px solid blue;
+    align-items: center;
+    width: 80px;
+    align-items: flex-start;
+    display:grid;
+    background-color: blueviolet;
+    
+}
+article{
+    background-color: blueviolet;
+    grid-area: article;
+    width: 80px;
+}
+footer{
+grid-area: footer;
+display: flex;
+}
+.content{
+    margin-left: 10px;
+}
+.Button-tag{
+    display: flex;
+}
+button{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    height: 40px;
+    width: 130px;
+    margin-top: 10px;
+}
+.line{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.item{
+    margin-left: 10px;
+}
+.item-link{
+    color: white;
+}
+a:hover{
+    background-color: brown;
+}
+.item-adds{
+    align-items: center;
+    display: grid;
+    color: white;
+    margin-left: 10px;
+}
+#adds:hover{
+ background-color: brown;
+}
+.item-button:hover{
+    background-color: brown;
+}
+.input-element{
+    border-left: 200px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+    
