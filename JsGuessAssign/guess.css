@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 140%;
+}
+body{
+    font-family: 'VT323',monospace;
+    background-color: brown;
+    color: aliceblue;
+}
+header{
+    border-bottom: 6 px seashell solid;
+}
+.number{
+    font-size: 7rem;
+    text-align: center;
+    padding: 1rem;
+    width: 8rem;
+    border: 6px seashell dashed;
+    margin: 1rem auto;
+}
+.guess{
+    width: 8rem;
+    display: block;
+    margin: 2rem auto;
+    font-size: 5rem;
+}
+.match{
+    border:none;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'VT323',monospace;
+    font-weight: bold;
+    margin-left: 40%;
+}
+.message{
+    text-align: center;
+    margin-left: 3rem;
+}
+.msg-score{
+    text-align: center;
+    margin-left: 3rem;
+}
+.hidden{
+    visibility: hidden;
+}
+#again{
+    font-size: 1rem;
+    margin-left: 8rem;
+}
